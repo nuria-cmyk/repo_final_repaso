@@ -5,3 +5,5 @@
 @import url("./layout.css");
 @import url("./variables.css");
 @import url("./header.css");
+/* la mediaqueries siempre debe ir la última */
+@import url("./mediaqueries.css");

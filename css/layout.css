@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: var(--primary-color);
+  font-family: var(--primary-font);
   font-size: 1rem;
 }
 .container {
