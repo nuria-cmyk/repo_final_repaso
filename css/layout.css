@@ -19,3 +19,18 @@ img {
   height: auto;
   display: block;
 }
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  &:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+}
