@@ -1,0 +1,22 @@
+.hero {
+  height: 100vh;
+  background-image: url(../images/slider-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  h1 {
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.5rem;
+    margin: 1.25rem 0rem;
+  }
+}
