@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  /* esto sirve para hacer los puntos de ancla animados */
+}
+
+body {
+  font-family: var(--primary-color);
+  font-size: 1rem;
+}
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
