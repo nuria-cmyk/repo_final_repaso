@@ -1,0 +1,17 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  ul.social li {
+    display: inline-block;
+    margin: 0 0.3125rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
